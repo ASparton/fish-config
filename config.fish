@@ -4,3 +4,5 @@ if status is-interactive
 end
 
 pyenv init - | source
+
+set -gx JAVA_HOME /lib/jvm/java-11-openjdk-amd64/
