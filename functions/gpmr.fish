@@ -1,4 +1,4 @@
-function gpmr    
+function gpmr
     argparse 't/target=' 'title=' 'd/description=' 'r/remove' 'a/assignee=' -- $argv
 
     # Build push options
