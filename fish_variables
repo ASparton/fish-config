@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export JAVA_HOME:/lib/jvm/java\x2d11\x2dopenjdk\x2damd64/
 SETUVAR --export PYENV_ROOT:/home/alsparton/\x2epyenv
-SETUVAR __fish_initialized:3100
+SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:FF6AC1
@@ -30,4 +30,5 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/usr/bin/apache\x2dmaven\x2d3\x2e8\x2e7/bin\x1e/usr/bin/ideaIC\x2d2022\x2e3\x2e1/idea\x2dIC\x2d223\x2e8214\x2e52/bin\x1e/home/alsparton/\x2elocal/share/pypoetry/venv/bin\x1e/home/alsparton/\x2epyenv/bin\x1e/home/asparton/\x2epyenv/bin\x1e/home/asparton/\x2elocal/bin
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/home/asparton/\x2epyenv/bin\x1e/home/asparton/\x2elocal/bin
