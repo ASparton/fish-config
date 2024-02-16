@@ -17,7 +17,12 @@ if status is-interactive
 
 	# Scrapy
 	alias scrawl="scrapy crawl"
-	starship init fish | source	
+	starship init fish | source
+
+	# Debugging
+	alias sshlog="ssh-t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central ; bash'"
+	alias sshlogh="ssh -t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central/hydrogen ; bash'"
+	alias sshlogs="ssh -t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central/scrapy ; bash'"
 end
 
 pyenv init - | source
