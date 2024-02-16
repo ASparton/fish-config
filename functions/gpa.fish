@@ -1,4 +1,4 @@
-function scrapush
+function gpa
     argparse 't/ticket=' -- $argv
 
     git push -o merge_request.create \

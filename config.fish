@@ -1,28 +1,32 @@
 if status is-interactive
-	# General
-	alias lsa="ls -a"
+    # General
+    alias lsa="ls -a"
 
-	# Docker
-	alias dps="sudo docker ps"
-	alias drm="sudo docker container rm"
-	alias dimg="sudo docker image"
-	alias dimgs="sudo docker images"
+    # Docker
+    alias dps="sudo docker ps"
+    alias drm="sudo docker container rm"
+    alias dimg="sudo docker image"
+    alias dimgs="sudo docker images"
 
-	# Git
-	alias gis="git switch"
-	alias gp="git push"
-	alias ga="git add"
-	alias gc="git commit"
-	alias gcb="git checkout -b"
+    # Git
+    alias gis="git switch"
+    alias gp="git push"
+    alias ga="git add"
+    alias gc="git commit"
+    alias gcb="git checkout -b"
 
-	# Scrapy
-	alias scrawl="scrapy crawl"
-	starship init fish | source
+    # Scrapy
+    alias scrawl="scrapy crawl"
+    starship init fish | source
 
-	# Debugging
-	alias sshlog="ssh-t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central ; bash'"
-	alias sshlogh="ssh -t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central/hydrogen ; bash'"
-	alias sshlogs="ssh -t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central/scrapy ; bash'"
+    # Logs checking
+    alias sshplog="ssh-t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central ; bash'"
+    alias sshplogh="ssh -t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central/hydrogen ; bash'"
+    alias sshplogs="ssh -t alexandre@back-logs-01-prod.jobi.joba 'cd /var/log/central/scrapy ; bash'"
+
+    alias sshslog="ssh -t alexandre@back-logs-01-staging.jobi.joba 'cd /var/log/central ; bash'"
+    alias sshslogh="ssh -t alexandre@back-logs-01-staging.jobi.joba 'cd /var/log/central/hydrogen ; bash'"
+    alias sshslogs="ssh -t alexandre@back-logs-01-staging.jobi.joba 'cd /var/log/central/scrapy ; bash'"
 end
 
 pyenv init - | source
